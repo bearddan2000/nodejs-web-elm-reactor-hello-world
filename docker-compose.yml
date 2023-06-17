@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  elm-srv:
+    build: ./elm-srv
+    ports:
+    - 80:8000
